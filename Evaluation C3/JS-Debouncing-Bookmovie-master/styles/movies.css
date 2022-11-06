@@ -1,0 +1,30 @@
+#navbar{
+    text-align: center;
+    background-color: aquamarine;
+}
+#search_bar{
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
+#search_bar > input {
+    height: 2rem;
+    width: 300px;
+}
+#movies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 550px;
+    gap: 30px;
+    text-align: center;
+}
+.movie_tab{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.book_now{
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
