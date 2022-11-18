@@ -1,0 +1,15 @@
+.header .icon-box { margin-right: 2px; }
+.header .icon-side img { margin-right: 13px; }
+/*.grid-container { max-width: 100%; }*/
+.grey-bg { padding-bottom: 0px; }
+
+@media(max-width: 767px){
+	.logo img { width: 70%; }
+	.logo { margin: -10px 0 -27px 0; }
+	#header-social-icon { width: 30px; display: inline-flex; margin-left: -100%; }
+	.header-desc { margin-top: 10px!important; }
+	.header-desc img { width: 25px; }
+	.header-desc .info-side p { font-size: 10px; }
+	.header-desc .info-side strong { font-size: 12px; }
+	.info-container .icon-box:nth-child(2n) { display: block!important; }
+}
